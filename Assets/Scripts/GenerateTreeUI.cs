@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.UIElements;
+using UnityEngine.EventSystems;
 
 
 
@@ -84,6 +86,7 @@ public class GenerateTreeUI : MonoBehaviour
     // Start is called before the first frame update
     public void gen()
     {
+        EventSystem.current.SetSelectedGameObject(null);
         if (!_leavesMesh)
             _leavesMesh = new Mesh();
         if (!leavesMaterial)
@@ -368,6 +371,7 @@ public class GenerateTreeUI : MonoBehaviour
     }
 
     public void ResetValues() {
+        EventSystem.current.SetSelectedGameObject(null);
         _recursionLevel = 3;
         _roughness = 1f;
         _basePolygon = 20;
