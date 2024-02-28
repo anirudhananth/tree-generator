@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2846214, g: 0.37120992, b: 0.498806, a: 1}
+  m_IndirectSpecularColor: {r: 0.28462115, g: 0.37120938, b: 0.4988049, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,8 +466,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4280518427
+  m_fontColor: {r: 0.10715558, g: 0.5283019, b: 0.13754761, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -826,7 +826,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730586364
 MonoBehaviour:
@@ -849,10 +849,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.10810248, g: 0.90943396, b: 0.2388839, a: 1}
-    m_HighlightedColor: {r: 0, g: 0.645283, b: 0.004740963, a: 1}
-    m_PressedColor: {r: 0.46284798, g: 0.8792453, b: 0.5698753, a: 1}
-    m_SelectedColor: {r: 0, g: 0.64705884, b: 0.003921569, a: 1}
+    m_NormalColor: {r: 0.876246, g: 0.88919544, b: 0.9150943, a: 1}
+    m_HighlightedColor: {r: 0.2924528, g: 0.21635269, b: 0.20830366, a: 1}
+    m_PressedColor: {r: 0.21698111, g: 0.16145657, b: 0.15454787, a: 1}
+    m_SelectedColor: {r: 0.1792453, g: 0.14291982, b: 0.13781595, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -988,8 +988,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279531520
-  m_fontColor: {r: 0, g: 0.4716981, b: 0.0770119, a: 1}
+    rgba: 4279458053
+  m_fontColor: {r: 0.021404423, g: 0.3490566, b: 0.07601315, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
