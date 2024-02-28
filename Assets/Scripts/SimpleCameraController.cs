@@ -85,7 +85,7 @@ namespace UnityTemplateProjects
         Vector3 GetInputTranslationDirection()
         {
             Vector3 direction = new Vector3();
-            if (Input.GetKey(KeyCode.W) && transform.position.z < 0f)
+            if (Input.GetKey(KeyCode.W))
             {
                 direction += Vector3.forward;
             }
@@ -101,7 +101,7 @@ namespace UnityTemplateProjects
             {
                 direction += Vector3.right;
             }
-            if (Input.GetKey(KeyCode.Q) && transform.position.y > 1f)
+            if (Input.GetKey(KeyCode.Q))
             {
                 direction += Vector3.down;
             }
